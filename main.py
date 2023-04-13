@@ -1,11 +1,19 @@
-def main(S, d):
-    '''create a babylonian function.
+# def main(S, d):
+#     '''create a babylonian function.
     
-    Args:
-        S (int): number
-        d (int): numnber
+#     Args:
+#         S (int): number
+#         d (int): numnber
         
-    Returns:
-        float: result
-    '''
-    return
+#     Returns:
+#         float: result
+#     '''
+#     return
+def main(S,d):
+    a= (S-d**2)/2*d
+    b= a+d
+    x= b-(a**2/2*b)
+
+    return x
+
+print(main(2,1))
